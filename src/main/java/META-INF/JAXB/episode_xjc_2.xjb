@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.0 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2018.10.19 à 06:41:15 PM CEST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://ing3.upec.fr/beans">
+    <schemaBindings map="false">
+      <package name="modele.conception.avancee.bean"/>
+    </schemaBindings>
+    <bindings scd="tns:calculerAgeRequest">
+      <class ref="modele.conception.avancee.bean.CalculerAgeRequest"/>
+    </bindings>
+    <bindings scd="~tns:personne">
+      <class ref="modele.conception.avancee.bean.Personne"/>
+    </bindings>
+    <bindings scd="tns:calculerAgeResponse">
+      <class ref="modele.conception.avancee.bean.CalculerAgeResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
